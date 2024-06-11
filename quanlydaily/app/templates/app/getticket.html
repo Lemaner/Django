@@ -1,0 +1,22 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block getticket-content %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Flight</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'app/css/getticket.css' %}">
+    </head>
+    <body>
+        <div class="tickket_success">
+        <h1> Đặt vé thành công</h1>
+        <img src="{%static 'app/image/success.png' %}" width="200" height="200" alt="">
+        <p>Chúc mừng quý khách đã đặt thành công vé đi {{ Product.name }}. Nhân viên chăm sóc khách hàng của chúng tôi sẽ liên hệ với quý khách khi đơn hàng được xác nhận. Cảm ơn quý khách đã luôn tin tưởng và ủng hộ.</p> 
+        </div>
+    </body>
+</html>
+{% endblock getticket-content %}

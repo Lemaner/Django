@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.tickket_success{
+    text-align: center;
+    margin: 30px auto 280px auto;
+}
+.tickket_success img{
+    margin: 15px;
+}
+.tickket_success p{
+    margin: auto 300px;
+    font-size: 25px;
+}
+.tickket_success{
+    margin-top: 100px;
+}
